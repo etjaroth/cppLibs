@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/examples/CMakeLists.txt
+  simple.c
+  glad_gl.c
+  Generating Code...
+  simple.vcxproj -> C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\Debug\simple.exe

@@ -1,0 +1,10 @@
+^C:\USERS\DRAGO\SOURCE\CPPLIBS\OPENGLDEPENDENCIES\CMAKE\GLFW-3.3.4\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4 -BC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build --check-stamp-file C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

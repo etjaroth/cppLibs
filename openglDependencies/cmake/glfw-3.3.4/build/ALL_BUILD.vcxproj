@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DE3C6820-8FD5-3EBB-83E2-ACC9A90FEC91}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4 -BC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build --check-stamp-file C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeSystem.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\cmake_uninstall.cmake.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw3.pc.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw3Config.cmake.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4 -BC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build --check-stamp-file C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeSystem.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\cmake_uninstall.cmake.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw3.pc.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw3Config.cmake.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4 -BC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build --check-stamp-file C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeSystem.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\cmake_uninstall.cmake.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw3.pc.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw3Config.cmake.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4 -BC:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build --check-stamp-file C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\3.17.2\CMakeSystem.cmake;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\cmake_uninstall.cmake.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw3.pc.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw3Config.cmake.in;C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\ZERO_CHECK.vcxproj">
+      <Project>{1804BF1B-4D18-39F7-BF96-1AF835543942}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\boing.vcxproj">
+      <Project>{5EB7EF80-C790-3F5F-89BB-E4DA1746D553}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\clipboard.vcxproj">
+      <Project>{DE9C4B85-385D-3D23-8AFF-01B2184698D6}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\cursor.vcxproj">
+      <Project>{918757B5-2422-3047-82B0-3AAE95A3F465}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\empty.vcxproj">
+      <Project>{C88D597D-31E0-360A-9EE4-9DEC297E084C}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\events.vcxproj">
+      <Project>{8F363575-3328-3794-85ED-E00F66CEFF6D}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\gamma.vcxproj">
+      <Project>{5E2D42DC-7866-3B09-8DD8-A3C4895ADF56}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\gears.vcxproj">
+      <Project>{36633661-DF13-3FB7-8934-8C533F93C31A}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\src\glfw.vcxproj">
+      <Project>{49F641B0-AB77-3E42-B5B8-246DC8FBA6EB}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\glfwinfo.vcxproj">
+      <Project>{43EDE9E8-471E-32E1-B9D7-A4F945812563}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\heightmap.vcxproj">
+      <Project>{5D025D87-1F47-336E-A28D-6E1E1F889032}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\icon.vcxproj">
+      <Project>{9D6DC55A-A6EB-37DF-92EC-1FBF5551AF61}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\iconify.vcxproj">
+      <Project>{BB622754-2892-38A0-B7F5-1F1126AF76A3}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\inputlag.vcxproj">
+      <Project>{FB6EC440-9960-3C3B-A830-6C7FBCA37FBC}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\joysticks.vcxproj">
+      <Project>{45EAB737-14CD-3C42-9974-EF98B68EC99A}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\monitors.vcxproj">
+      <Project>{94DDD152-ED62-3FF5-B7AE-C4D32E8FD179}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\msaa.vcxproj">
+      <Project>{5E659821-AE27-30E5-8E22-944766B99249}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\offscreen.vcxproj">
+      <Project>{57DB7D12-6046-3500-90AD-035539ADF866}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\opacity.vcxproj">
+      <Project>{09418750-CC81-3EA1-BC3C-CF6AED5807ED}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\particles.vcxproj">
+      <Project>{48865635-A6B9-38C6-A779-01F44E95A454}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\reopen.vcxproj">
+      <Project>{46D17111-9B3C-3F06-B33B-32B46742D968}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\sharing.vcxproj">
+      <Project>{AB460A4E-635B-3665-921E-08FBBE38C6E9}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\simple.vcxproj">
+      <Project>{FD1FF17F-5679-32DC-90C0-B3382BAA9251}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\splitview.vcxproj">
+      <Project>{78FD5B62-2040-3F70-93BF-4EF9BEA31E74}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\tearing.vcxproj">
+      <Project>{A574ED53-1892-3574-975D-1AAFD59060E0}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\threads.vcxproj">
+      <Project>{249649DE-D7B0-327C-958A-0ACADFD881BD}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\timeout.vcxproj">
+      <Project>{1D2305CC-C8B7-31D1-BB1C-70D85C4E5048}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\title.vcxproj">
+      <Project>{27A878C0-1812-3AA7-B210-0985D83B5E7A}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\triangle-vulkan.vcxproj">
+      <Project>{2CE215A5-ECA3-3E4B-B032-25ED24409BB2}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\examples\wave.vcxproj">
+      <Project>{0E32D146-3529-3748-A302-BC69C16C3622}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\windows.vcxproj">
+      <Project>{5BAA090B-D392-39B2-B0FE-5E9DD54324B0}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

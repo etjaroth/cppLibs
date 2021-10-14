@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\CMakeFiles\12e7424655cff65ee857568267c9fe19\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2BBFC7D4-3DFA-38FC-86F0-199CB0257853}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

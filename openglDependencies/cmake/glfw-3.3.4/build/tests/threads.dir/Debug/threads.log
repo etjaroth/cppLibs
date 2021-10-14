@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/Drago/source/cpplibs/openglDependencies/cmake/glfw-3.3.4/tests/CMakeLists.txt
+  threads.c
+  tinycthread.c
+  glad_gl.c
+  Generating Code...
+  threads.vcxproj -> C:\Users\Drago\source\cpplibs\openglDependencies\cmake\glfw-3.3.4\build\tests\Debug\threads.exe

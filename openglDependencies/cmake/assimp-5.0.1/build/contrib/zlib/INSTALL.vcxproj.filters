@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Drago\source\cpplibs\openglDependencies\cmake\assimp-5.0.1\build\CMakeFiles\bca752a7a864c9d7c993f7d21a8bc665\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9857898C-E281-3FDD-BE8E-EC9E73F85BA3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

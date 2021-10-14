@@ -1,0 +1,10 @@
+^C:\USERS\DRAGO\SOURCE\CPPLIBS\OPENGLDEPENDENCIES\CMAKE\ASSIMP-5.0.1\CONTRIB\IRRXML\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Drago/source/cpplibs/openglDependencies/cmake/assimp-5.0.1 -BC:/Users/Drago/source/cpplibs/openglDependencies/cmake/assimp-5.0.1/build --check-stamp-file C:/Users/Drago/source/cpplibs/openglDependencies/cmake/assimp-5.0.1/build/contrib/irrXML/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

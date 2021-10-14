@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/Drago/source/cpplibs/openglDependencies/cmake/assimp-5.0.1/cmake-modules/FindDirectX.cmake
+C:/Users/Drago/source/cpplibs/openglDependencies/cmake/assimp-5.0.1/cmake-modules/FindPkgMacros.cmake
+C:/Users/Drago/source/cpplibs/openglDependencies/cmake/assimp-5.0.1/tools/assimp_view/CMakeLists.txt
